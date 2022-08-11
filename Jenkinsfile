@@ -5,7 +5,5 @@ node {
     }
     stage("show files"){
         sh "ls -l"
-     stage("show current path"){
-        sh "pwd"
     }
 }
